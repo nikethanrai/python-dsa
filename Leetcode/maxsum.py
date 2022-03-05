@@ -3,7 +3,7 @@ def maxSum(arr,k):
         return
     max_sum=0
     current=sum(arr[:k])
-
+#window sliding method
     for i in range(len(arr)-k):
         current=current-arr[i]+arr[i+k]
         max_sum=max(max_sum,current)

@@ -1,4 +1,4 @@
-
+#use dictionaries
 def twoSum(nums,target):
     dict={}
     for i in range(len(nums)):

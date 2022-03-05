@@ -13,4 +13,4 @@ def subset(p,up):
     return x
 
 
-print(subset("","123456"))
+print(subset("","123"))
